@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head><title>Eeveelution Quiz</title></head>
+<body>
+  <p id="myParagraph"></p>
+
+<style> 
+.style1 { 
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-weight: bold; 
+  font-size: 30px; 
+  color: #F7D02C; 
+  text-align: center;
+} 
+  .style3 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #F7D02C
+  
+  } 
+  .style4 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #6F35FC
+  } 
+
+.col{
+    color:#fff;
+      float:left;
+      margin:2%;
+      width: 46%;
+    }
+    .one{
+      background-image: url("https://s6.postimg.org/bpvjta82p/Pokemon_Phone_Eevee_Pictures.jpg");
+      background-position: center; 
+       background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    .two{
+      background-image: url("https://s6.postimg.org/bpvjta82p/Pokemon_Phone_Eevee_Pictures.jpg");
+      background-position: center; 
+       background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  @media screen and (max-width: 800px){
+    .col{
+      float: none;
+      margin: 0;
+      width: 100%;
+    }
+  }
+</style> 
+</body>
+
+<div class="style1">What Eeveelution are you?</div>
+<div class="col one">
+
+<form name="quiz" action="javascript:check();">
+<div class="style3"><br>During times of crisis you often find yourself...</br></div>
+<div class="style4"><input type="radio" name="q1" value="Vaporeon" checked="checked"> Planning ahead and making sure we have all the necessities needed to survive<br>
+<input type="radio" name="q1" value="Jolteon"> Fighting others for the best supplies in order for your family to survive<br>
+<input type="radio" name="q1" value="Flareon"> Making sure the needs of others are met before your own<br>
+<input type="radio" name="q1" value="Eevee"> Relying on others but providing encouragement in any way you can<br><br></div>
+
+<div class="style3"><br>A bully starts picking on you at school, what do you?</br></div>
+<div class="style4"><input type="radio" name="q2" value="Vaporeon" checked="checked"> Analyze the situation but choose words over violence to resolve your conflicts<br>
+<input type="radio" name="q2" value="Jolteon"> Show that bully a thing or two! He's been picking on one of your best buddies anyway!<br>
+<input type="radio" name="q2" value="Flareon"> Silently enduring it because you know if he picks on you no one else will get hurt<br>
+<input type="radio" name="q2" value="Eevee"> Bringing the problem up to a person of authority and letting them handle it.<br><br></div>
+
+<div class="style3"><br>What value is of most important to you out of the following?</br></div>
+<div class="style4"><input type="radio" name="q3" value="Vaporeon" checked="checked"> Education<br>
+<input type="radio" name="q3" value="Jolteon"> Family<br>
+<input type="radio" name="q3" value="Flareon"> Health<br>
+<input type="radio" name="q3" value="Eevee"> Friends<br><br></div>
+
+<div class="style3"><br>What kind of person do you consider yourself to be?</br></div>
+<div class="style4"><input type="radio" name="q4" value="Vaporeon" checked="checked"> Logical<br>
+<input type="radio" name="q4" value="Jolteon"> Family Oriented<br>
+<input type="radio" name="q4" value="Flareon"> Optimistic<br>
+<input type="radio" name="q4" value="Eevee"> Emotional<br><br></div>
+
+<div class="style4"><div class="style3"><br>What's your favorite season?</br></div>
+<input type="radio" name="q5" value="Vaporeon" checked="checked"> Summer<br>
+<input type="radio" name="q5" value="Jolteon"> Spring<br>
+<input type="radio" name="q5" value="Flareon"> Fall<br>
+<input type="radio" name="q5" value="Eevee"> Winter<br><br></div>
+</div>
+
+<div class="col two">
+<div class="style3"><br>Generally are you more introverted or extroverted?</br></div>
+<div class="style4"><input type="radio" name="q6" value="Vaporeon" checked="checked"> Introverted.<br>
+<input type="radio" name="q6" value="Jolteon"> I'm only extroverted around family.<br>
+<input type="radio" name="q6" value="Flareon"> It really depends on my mood.<br>
+<input type="radio" name="q6" value="Eevee"> Extroverted.<br><br></div>
+
+<div class="style3"><br>You have the day to yourself, what do you end up doing?</br></div>
+<div class="style4"><input type="radio" name="q7" value="Vaporeon" checked="checked"> Staying at home and reading a book<br>
+<input type="radio" name="q7" value="Jolteon"> Seeking out your family to spend time with them<br>
+<input type="radio" name="q7" value="Flareon"> Chilling out poolside. You deserve a day just for you.<br>
+<input type="radio" name="q7" value="Eevee"> Calling up your best buds to spend a day at the zoo<br><br></div>
+
+<div class="style3"><br>What types of foods do you usually like?</br></div>
+<div class="style4"><input type="radio" name="q8" value="Vaporeon" checked="checked"> Savory<br>
+<input type="radio" name="q8" value="Jolteon"> Mix of everything!<br>
+<input type="radio" name="q8" value="Flareon"> Spicy<br>
+<input type="radio" name="q8" value="Eevee"> Sweet<br><br></div>
+
+<div class="style3"><br>What time of day do you generally prefer?</br></div>
+<div class="style4"><input type="radio" name="q9" value="Vaporeon" checked="checked"> Night<br>
+<input type="radio" name="q9" value="Jolteon"> It honestly depends on my moods<br>
+<input type="radio" name="q9" value="Flareon"> Afternoon<br>
+<input type="radio" name="q9" value="Eevee"> Morning<br><br></div>
+
+<div class="style3"><br>If you could travel anywhere in the world, where would you go?</br></div>
+<div class="style4"><input type="radio" name="q10" value="Vaporeon" checked="checked"> Somewhere exotic like Asia<br>
+<input type="radio" name="q10" value="Jolteon"> I'd take the time and trip to visit family<br>
+<input type="radio" name="q10" value="Flareon"> Everywhere! I want to go everywhere!<br>
+<input type="radio" name="q10" value="Eevee"> I have all the excitement I need right here with my friends<br><br></div>
+</div>
+<center><input type="submit" value="Submit answers"></center>
+</form>
+
+<script type="text/javascript">
+   var result;
+
+   function check()
+   {
+      var question;
+      var Vaporeon;
+      var Jolteon;
+      var Flareon;
+      var Eevee;
+      var answer;
+      var youranswer;
+   
+      question = 1;
+      Vaporeon = 0;
+      Jolteon = 0;
+      Flareon = 0;
+      Eevee = 0;
+      result = "";
+      answer = 1;
+      var choice;
+
+      for (question = 1; question <= 10; question++) {
+       var q = document.forms['quiz'].elements['q'+question];
+            for (var i = 0; i < q.length; i++) {
+               if (q[i].checked) {
+                  choice = q[i].value;
+               }
+            }
+                        if (choice == "Vaporeon") {
+               Vaporeon++;
+            }
+            if (choice == "Jolteon") {
+               Jolteon++;
+            }
+            if (choice == "Flareon") {
+               Flareon++;
+            }
+            if (choice == "Eevee") {
+               Eevee++;
+            }
+         }
+         if (Vaporeon >= Jolteon && Vaporeon >= Flareon && Vaporeon >= Eevee && Vaporeon > 0) {
+         // Vaporeon is the highest
+         result = "Vaporeon";
+      }
+      else if (Jolteon > Vaporeon && Jolteon >= Flareon && Jolteon >= Eevee && Jolteon > 0) {
+         // Jolteon is the highest
+         result = "Jolteon";
+      }
+      else if (Flareon > Vaporeon && Flareon > Jolteon && Flareon >= Eevee && Flareon > 0) {
+         // Flareon is the highest
+         result = "Flareon";
+      }
+      else if (Eevee > Vaporeon && Eevee > Jolteon && Eevee > Flareon && Eevee > 0) {
+         // Eevee is the highest
+         result = "Eevee";
+      }
+      else {
+         result = "oops";
+      }  
+    displayResult(result);
+  }
+
+function displayResult(result) {
+  //make a new image object
+  var image = document.createElement('img');
+  //assign it CSS properties with a class
+  image.className = 'result';
+  //grab the paragraph to append the image to
+  var source = document.getElementById('myParagraph');
+  // use a \ to indicate a ' in a string
+  var text = 'Your result is ' + result + '!';
+  //pick the right image source by house using a switch statement
+  switch(result) {
+    case 'Vaporeon':
+      image.src = 'https://s6.postimg.org/kra36w601/Vaporeon.jpg';
+      break;
+    case 'Jolteon':
+      image.src = 'https://s6.postimg.org/dzjo41h0h/Jolteon.jpg';
+      break;
+    case 'Flareon':
+      image.src = 'https://s6.postimg.org/j9omvc19d/Flareon.jpg';
+      break;
+    case 'Eevee':
+      image.src = 'https://s6.postimg.org/pyv6bcmld/Eevee.jpg';
+      break;
+    default:
+      image.src = '';
+  }
+  //add the image to the paragraph
+  source.appendChild(image);
+  //append the text on a new line
+  source.innerHTML += '<br>' + text ;
+}
+</script>
+</html>
